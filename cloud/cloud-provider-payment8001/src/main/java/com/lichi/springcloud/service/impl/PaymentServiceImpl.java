@@ -1,8 +1,9 @@
 package com.lichi.springcloud.service.impl;
 
+import com.lichi.springcloud.entities.CommonResult;
+import com.lichi.springcloud.service.PaymentService;
 import com.lichi.springcloud.dao.PaymentDao;
 import com.lichi.springcloud.entities.Payment;
-import com.lichi.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

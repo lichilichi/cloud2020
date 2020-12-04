@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CommonResult <T>{
+public class CommonResult <T> extends Payment {
 
     private Integer code;
     private String message;
